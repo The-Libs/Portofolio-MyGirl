@@ -1,0 +1,35 @@
+.bg-color-navbar{
+    background-color: #9AC5F4;
+}
+
+body{
+    height: 100vh;
+}
+
+
+.main-hero{
+    width: 350px;
+}
+
+
+.jumbotron{
+    padding-top: 0.2rem;
+    background-color: #9AC5F4;
+}
+
+@media only screen and (max-width: 400px) {
+    .main-hero{
+        width: 300px;
+    }
+}
+
+@-webkit-keyframes colours{
+    0%{color : #9AC5F4}
+    15%{color : #ECE5C7}
+    30%{color : #FFEEBB}
+    45%{color : #F5EFE7}
+    60%{color : #D8C4B6}
+    75%{color : #CDC2AE}
+    90%{color : #1F6E8C;}
+    100%{color: #0E2954;}
+}
